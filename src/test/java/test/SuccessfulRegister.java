@@ -20,7 +20,7 @@ public class SuccessfulRegister extends BaseTest {
     @DataProvider(name = "validCredentialsRegister")
     public Object[][] getValidCredentials() {
         return new Object[][]{
-                {"register11562", "ivan123s1@abv.bg", "register1231", "register1231"},
+                {"registe231562", "ivan12sa21@abv.bg", "register1231", "register1231"},
         };
     }
     @Test(dataProvider = "validCredentialsRegister")
