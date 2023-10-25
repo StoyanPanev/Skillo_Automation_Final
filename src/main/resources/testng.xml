@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+    <test name="RegistrationTests">
+        <classes>
+            <class name="test.SuccessfulRegister"/>
+            <class name="test.UnsuccessfulRegistration"/>
+        </classes>
+    </test>
+    <test name="LoginTests">
+        <classes>
+            <class name="test.ValidLoginTest"/>
+            <class name="test.InvalidLoginTest"/>
+        </classes>
+    </test>
+    <test name="ProfileTests">
+        <classes>
+            <class name="test.ChangePublicInfoTest"/>
+            <class name="test.ProfilePhotoTest"/>
+        </classes>
+    </test>
+    <test name="CommentAndPostTests">
+        <classes>
+            <class name="test.CommentPostNoLogInTest"/>
+            <class name="test.PostTest"/>
+        </classes>
+    </test>
+</suite>
